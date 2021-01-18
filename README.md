@@ -31,7 +31,7 @@ CMD ["/bin/bash", "-c", "find -type f -name '*.jar' | xargs java -jar"]
 
 Kubernetes manifest file named deployment.yaml needs to be created :
 
-yaml```
+```
 apiVersion: apps/v1
 kind: Deployment
 metadata:
