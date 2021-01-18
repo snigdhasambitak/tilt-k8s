@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: tilt-demo
-        image: roukou/tilt-demo:latest
+        image: snigdhasambit/tilt-demo:latest
         ports:
         - containerPort: 42050
