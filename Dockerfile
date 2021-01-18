@@ -1,4 +1,3 @@
-
 FROM maven:3-jdk-11 as BUILD
 
 COPY . /usr/src/app
