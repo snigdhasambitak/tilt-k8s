@@ -53,6 +53,11 @@ spec:
         ports:
         - containerPort: 42050
 ```
+## Choosing a Local Dev Cluster
+
+There are lots of Kubernetes dev solutions out there. The choices can be overwhelming. More details can be found below:
+
+https://docs.tilt.dev/choosing_clusters.html#microk8s
 
 ## Tiltfile
 
