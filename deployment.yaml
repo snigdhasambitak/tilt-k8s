@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: tilt-demo
+  labels:
+    app: tilt-demo
+spec:
+  selector:
+    matchLabels:
+      app: tilt-demo
+  template:
+    metadata:
+      labels:
+        app: tilt-demo
+    spec:
+      containers:
+      - name: tilt-demo
+        image: roukou/tilt-demo:latest
+        ports:
+        - containerPort: 42050
