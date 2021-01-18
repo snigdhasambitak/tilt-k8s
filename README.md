@@ -12,7 +12,7 @@ A spring-boot application will be used which can be found in this repository
 
 A Dockerfile is needed to containerize the application. A simple Dockerfile can be:
 
-bash```
+```
 FROM maven:3-jdk-11 as BUILD
 
 COPY . /usr/src/app
